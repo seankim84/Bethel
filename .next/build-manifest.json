@@ -11,6 +11,14 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
+    "/search": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/ssr-test": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/about": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"

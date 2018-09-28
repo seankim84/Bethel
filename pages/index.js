@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
+import Header from '../components/header';
 
 
 const index = () => (
