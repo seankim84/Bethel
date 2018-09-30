@@ -7,7 +7,7 @@ class SSRTest extends React.Component {
     static async getInitialProps ({req}) {
         const response = await axios.get('http://api.football-data.org/v2/competitions');
         return {
-            users: response.data
+            users: response.data.competitions
         }
     }
 
@@ -15,7 +15,7 @@ class SSRTest extends React.Component {
         const { users } = this.props;
 
         const userList = users.map(
-            user => <li key={user.id}>{user.username}</li>
+            user => <li key={user.id}>{user.name}</li>
         )
         
         return (
